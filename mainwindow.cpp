@@ -6,6 +6,9 @@ MainWindow::MainWindow(QWidget *parent) :
   ui(new Ui::MainWindow)
 {
   ui->setupUi(this);
+
+  CenterView *centerWidget = new CenterView(this);
+  this->setCentralWidget(centerWidget);
 }
 
 MainWindow::~MainWindow()
