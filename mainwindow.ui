@@ -33,6 +33,9 @@
     <property name="title">
      <string>操作</string>
     </property>
+    <addaction name="action_3"/>
+    <addaction name="action_8"/>
+    <addaction name="separator"/>
     <addaction name="action_4"/>
     <addaction name="action_5"/>
     <addaction name="action_6"/>
@@ -98,6 +101,16 @@
   <action name="action_7">
    <property name="text">
     <string>帮助</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>新建面试</string>
+   </property>
+  </action>
+  <action name="action_8">
+   <property name="text">
+    <string>清除数据</string>
    </property>
   </action>
  </widget>

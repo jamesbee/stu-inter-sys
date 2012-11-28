@@ -5,6 +5,7 @@
 
 namespace Ui {
 class CenterView;
+class InterEditor;
 }
 
 class CenterView : public QWidget
@@ -17,6 +18,7 @@ public:
     
 private:
     Ui::CenterView *ui;
+    Ui::InterEditor *interEditor_ui;
 };
 
 #endif // CENTERVIEW_H

@@ -20,4 +20,8 @@ HEADERS  += mainwindow.h \
     centerview.h
 
 FORMS    += mainwindow.ui \
-    centerview.ui
+    centerview.ui \
+    InterEditor.ui
+
+OTHER_FILES += \
+    data_struction.txt

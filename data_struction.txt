@@ -1,0 +1,20 @@
+Student: data {
+    name: string
+    no: char[10]
+    status: flag {
+        present: bool
+        late: bool
+        away: bool
+        inter?: bool
+    }
+    issues: char[type][no]@Issues
+}
+
+Issues: data {
+    name: string
+    no: int
+}
+
+InterView: data {
+    status:
+}
