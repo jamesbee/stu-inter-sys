@@ -16,5 +16,13 @@ Issues: data {
 }
 
 InterView: data {
-    status:
+    status: flag {
+        pause
+        start
+        stop
+        set
+    }
+    student_no: int
+    issuses_no: int     //temporary
+
 }
