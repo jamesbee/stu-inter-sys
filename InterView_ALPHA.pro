@@ -21,10 +21,10 @@ HEADERS  += mainwindow.h \
 
 FORMS    += mainwindow.ui \
     centerview.ui \
-    InterEditor.ui \
     issue_editor.ui \
     stu_editor.ui \
-    inter_maneger.ui
+    inter_maneger.ui \
+    inter_editor.ui
 
 OTHER_FILES += \
     data_struction.txt

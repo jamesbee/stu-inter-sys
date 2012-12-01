@@ -1,7 +1,7 @@
 #include "centerview.h"
 #include "ui_centerview.h"
 
-#include "ui_InterEditor.h"
+#include "ui_inter_editor.h"
 #include "ui_issue_editor.h"
 #include "ui_stu_editor.h"
 #include "ui_inter_maneger.h"
