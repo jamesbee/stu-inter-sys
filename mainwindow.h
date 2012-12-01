@@ -2,7 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "centerview.h"s
+#include "centerview.h"
 
 namespace Ui {
   class MainWindow;
