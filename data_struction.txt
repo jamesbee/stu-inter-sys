@@ -1,6 +1,6 @@
 Student: data {
     name: string
-    no: char[10]
+    id: char[18]
     status: flag {
         present: bool
         late: bool
@@ -8,10 +8,12 @@ Student: data {
         inter?: bool
     }
     issues: char[type][no]@Issues
+    issues: char[type][no]@Issues
+    issues: char[type][no]@Issues
 }
 
 Issues: data {
-    name: string
+    type: string
     no: int
 }
 
