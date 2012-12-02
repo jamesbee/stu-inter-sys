@@ -347,19 +347,14 @@
       </spacer>
      </item>
      <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="text">
+        <string>应用</string>
+       </property>
+      </widget>
+     </item>
+     <item>
       <widget class="QPushButton" name="pushButton">
-       <property name="minimumSize">
-        <size>
-         <width>85</width>
-         <height>30</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>85</width>
-         <height>30</height>
-        </size>
-       </property>
        <property name="text">
         <string>下一步 &gt;</string>
        </property>
