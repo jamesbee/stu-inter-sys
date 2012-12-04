@@ -3,6 +3,10 @@
 
 #include <QWidget>
 
+#include "issueeditordelegate.h"
+#include "intereditordelegate.h"
+#include "stueditordlegate.h"
+
 namespace Ui {
 class CenterView;
 
@@ -27,6 +31,13 @@ private:
     Ui::InterManeger *interManeger_ui;
     Ui::StuEditor *stuEditor_ui;
     Ui::IssueEditor *issueEditor_ui;
+
+    InterEditorDelegate *interEditorDelegate;
+    IssueEditorDelegate *issueEditorDelegate;
+    StuEditorDlegate *stuEditorDelegate;
+
+private slots:
+    void nextTab();
 };
 
 #endif // CENTERVIEW_H

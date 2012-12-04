@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>900</width>
-    <height>579</height>
+    <width>852</width>
+    <height>536</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -34,7 +34,10 @@
                </font>
               </property>
               <property name="text">
-               <string>学生数    ：</string>
+               <string>    学生数：</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
               </property>
              </widget>
             </item>
@@ -66,7 +69,10 @@
                </font>
               </property>
               <property name="text">
-               <string>考题数    ：</string>
+               <string>    考题数：</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
               </property>
              </widget>
             </item>
@@ -332,9 +338,9 @@
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout">
+    <layout class="QHBoxLayout" name="horizontalLayout_14">
      <item>
-      <spacer name="horizontalSpacer">
+      <spacer name="horizontalSpacer_9">
        <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
@@ -347,16 +353,22 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="btn_apply">
        <property name="text">
         <string>应用</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QCommandLinkButton" name="btn_nextTab">
+       <property name="maximumSize">
+        <size>
+         <width>168</width>
+         <height>36</height>
+        </size>
+       </property>
        <property name="text">
-        <string>下一步 &gt;</string>
+        <string>下一步</string>
        </property>
       </widget>
      </item>

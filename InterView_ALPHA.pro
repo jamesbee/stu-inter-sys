@@ -14,10 +14,20 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    centerview.cpp
+    centerview.cpp \
+    stutablemodel.cpp \
+    stutabledelegeter.cpp \
+    intereditordelegate.cpp \
+    issueeditordelegate.cpp \
+    stueditordlegate.cpp
 
 HEADERS  += mainwindow.h \
-    centerview.h
+    centerview.h \
+    stutablemodel.h \
+    stutabledelegeter.h \
+    intereditordelegate.h \
+    issueeditordelegate.h \
+    stueditordlegate.h
 
 FORMS    += mainwindow.ui \
     centerview.ui \

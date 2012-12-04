@@ -21,9 +21,22 @@ CenterView::CenterView(QWidget *parent) :
     issueEditor_ui->setupUi (ui->issueEditor);
     stuEditor_ui->setupUi (ui->stuEditor);
     interManeger_ui->setupUi (ui->interManeger);
+
+    issueEditorDelegate = new IssueEditorDelegate(issueEditor_ui, this);
+    interEditorDelegate = new InterEditorDelegate(interEditor_ui, this);
+    stuEditorDelegate = new StuEditorDlegate(stuEditor_ui, this);
 }
 
 CenterView::~CenterView()
 {
     delete ui;
+}
+
+void CenterView::nextTab()
+{
+    if(ui->tabView->currentIndex() < 3)
+    {
+        ui->tabView->setCurrentIndex(
+                    ui->tabView->currentIndex() + 1);
+    }
 }
