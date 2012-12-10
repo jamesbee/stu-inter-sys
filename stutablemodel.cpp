@@ -1,4 +1,4 @@
-#include "stutablemodel.h"
+﻿#include "stutablemodel.h"
 
 StuTableModel::StuTableModel(QObject *parent) :
   QAbstractTableModel(parent)
@@ -51,10 +51,8 @@ QVariant StuTableModel::headerData(int section, Qt::Orientation orientation, int
       switch (section) {
         case 0:
           return tr("姓名");
-
         case 1:
           return tr("证件号");
-
         default:
           return QVariant();
         }
